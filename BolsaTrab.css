@@ -1,0 +1,84 @@
+body {margin:0;
+    background-color: #ffffff;
+   /* background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 255));*/
+  }
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(105, 33, 33);
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: rgb(216, 63, 63);}
+    
+  ul.topnav li a.active {background-color: #a82c2c;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+  .frase{
+    display: block;
+      position: absolute;
+       width: 100%;
+       height: auto; 
+       text-align: center;
+       top: 60%;
+       color:mintcream;
+       font-size: 30px;
+  }
+  .frase cite{  
+    background:rgba(63, 57, 57, 0.404); 
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 20px 20px; 
+    padding: 5px 10px; 
+  }
+  div.sec{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  div.gallery {
+    margin: 12px;
+    float:left;
+    width: 30%;
+    border-radius: 20px 20px;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 16px 16px;
+  }
+
+  div.desc {
+    padding: 15px;
+    color: black;
+    background:rgb(255, 255, 255); 
+    text-align: center;
+  }    
+  div.consolas{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
