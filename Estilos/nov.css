@@ -1,0 +1,206 @@
+body {margin:0;
+    background-color: #ffffff;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #17315a ;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #92a5bc ;}
+    
+  ul.topnav li a.active {background-color:  #4f6f8f;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  
+  
+  /* Header/Blog Title */
+  #grad1 {
+    background-color: linear-gradient(top bottom right, red, blue);
+  }
+
+  .header {
+    padding: 30px;
+    text-align: center;
+    background-color: crimson;
+    border-radius: 20px 20px; 
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    color: whitesmoke;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 100%;
+    max-height: 400px;
+    padding: 350px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-radius: 5px 5px; 
+  }
+
+  .newspaper {
+    column-count: 1;
+    column-gap: 30px;  
+    column-width: 100px;
+  }
+  
+  /* Fake image 
+  img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }*/
+
+  .fakeimg {
+    align-self: left;
+    width: 100%;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: rgb(184, 184, 184);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    border-radius: 10px 10px; 
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+    }
+    @media screen and (max-width: 600px) {
+      ul.topnav li.right, 
+      ul.topnav li {float: none;}
+    }
+    
+    h2{
+      text-align: center;
+    }
+    
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+    
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+    
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+    
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .publi {
+      background-color: #a4a4a5cb ;
+      padding-top: 20px;
+      padding-right: 40px;
+      padding-bottom: 20px;   
+      padding-left: 40px;
+      border-radius: 14px 14px;
+      } 
+      
+      input[type=text] {
+        width: 100%;
+        padding: 12px 12px;
+        border-radius: 4px;
+      }
+      
+      textarea {
+        width: 100%;
+        padding: 12px 12px;
+        box-sizing: border-box;
+        border: 1px solid rgb(73, 73, 73);
+        border-radius: 4px;
+      }
+
+      input[type=submit] {
+        width: 20%;
+        background-color: #0081bd;
+        color: white;
+        padding: 12px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type=file] {
+        padding: 12px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      .divconteiner{
+        padding-top: 5px;
+        padding-right: 250px;
+        padding-bottom: 5px;   
+        padding-left: 270px;
+      }
